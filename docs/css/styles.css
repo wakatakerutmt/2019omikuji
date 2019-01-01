@@ -18,22 +18,17 @@ body {
     width: 170px;
     height: 150px;
     border-radius: 50%;
-    /* 50%で円になる */
     background: #EF454A;
     text-align: center;
     line-height: 150px;
-    /* line-heightをheightに合わせると文字が真ん中になる */
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
-    /* ボタンにはこれをつける */
     opacity: 0.9;
     box-shadow: 0 10px 0 #D1483E;
     border: 3px solid #D1483E;
-
-    user-select: none;
-    /*文字を選択されないようになる(色掛けにならない)*/
+    user-select: none
   }
   #btn:hover {
     opacity: 1;
@@ -84,22 +79,17 @@ body {
     width: 220px;
     height: 200px;
     border-radius: 50%;
-    /* 50%で円になる */
     background: #EF454A;
     text-align: center;
     line-height: 200px;
-    /* line-heightをheightに合わせると文字が真ん中になる */
     color: #fff;
     font-size: 42px;
     font-weight: bold;
     cursor: pointer;
-    /* ボタンにはこれをつける */
     opacity: 0.9;
     box-shadow: 0 10px 0 #D1483E;
     border: 3px solid #D1483E;
-
     user-select: none;
-    /*文字を選択されないようになる(色掛けにならない)*/
   }
 
   #btn:hover {
