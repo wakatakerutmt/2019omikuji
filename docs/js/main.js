@@ -3,7 +3,7 @@ var left = document.getElementById('left');
 var right = document.getElementById('right');
 
 btn.addEventListener('click', function() {
-  var results = ['矢沢永吉', '大吉'];
+  var results = ['矢沢永吉'];
   var n = Math.floor(Math.random() * results.length);
   this.textContent = results[n];
   if(n === 0){
